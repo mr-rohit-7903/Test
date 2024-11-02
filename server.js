@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-app.use(cors({ origin: 'https://mr-rohit-7903.github.io' }));
+app.use(cors({ origin: 'https://mr-rohit-7903.github.io/Test' }));
 app.use(express.json());
 
 // Replace with your MongoDB connection string
